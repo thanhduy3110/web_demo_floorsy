@@ -1,0 +1,1328 @@
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.image-menu {
+    height: 46px;
+    width: 206px;
+    padding-left: 120px;
+    padding-top: 34px;
+    padding-right: 206px;
+    border-radius: 0px;
+
+}
+
+.menu {
+    display: flex;
+    padding-bottom: 34px;
+}
+
+.main-menu {
+    display: flex;
+}
+
+/* .main-menu li {
+    margin-right: 55px;
+    width: 100px;
+    height: 19px;
+} */
+
+.home {
+    margin-right: 55px;
+}
+
+.about {
+    margin-right: 55px;
+}
+
+.service {
+    margin-right: 55px;
+}
+
+.product {
+    margin-right: 55px;
+}
+
+.news {
+    margin-right: 55px;
+}
+
+.contact {
+    margin-right: 55px;
+}
+
+.search {
+
+    margin-top: -6px;
+}
+
+.nav {
+    padding-top: 30px;
+}
+
+.li-item {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #585858;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    min-width: 100px;
+}
+
+.main-menu li:hover .sub-menu {
+    display: block;
+}
+
+ul li a:hover {
+    color: #FEAC2B;
+}
+
+ul.sub-menu li.text-sub a:hover {
+    color: #FEAC2B;
+}
+
+.text-sub {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+ul.sub-menu li.text-sub a {
+    text-decoration: none;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #585858;
+    display: block;
+}
+
+.frm-search {
+    display: flex;
+}
+
+.btn-search {
+    background: #FFFFFF;
+}
+
+/* Thêm hiệu ứng khi chuyển đổi các slide */
+.mySlides {
+    display: none;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3s;
+    animation-name: fade;
+    animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .header-1 {
+        width: 2000px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .rectangle {
+        width: 2000px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .rectangle {
+        width: 1900px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .rectangle {
+        width: 1850px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .rectangle {
+        width: 1550px;
+    }
+}
+
+.about-us {
+    padding-top: 56px;
+    padding-bottom: 58px;
+    display: flex;
+}
+
+.img-left {
+    display: flex;
+}
+
+.rectangle-2 {
+    position: absolute;
+    height: 603px;
+    width: 259px;
+    padding-left: 165px;
+    padding-top: 29px;
+}
+
+.rectangle-1 {
+    position: relative;
+    height: 632px;
+    width: 485px;
+    padding-left: 222px;
+}
+
+.rectangle-3 {
+    position: absolute;
+    height: 375px;
+    width: 303px;
+    padding-left: 84px;
+    padding-top: 83px;
+}
+
+.content-about-us {
+    padding-left: 63px;
+}
+
+.text-about {
+    /* ABOUT US */
+
+    width: 83px;
+    height: 59px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 58px;
+    /* identical to box height, or 366% */
+
+    color: #8B8B8B;
+
+
+}
+
+.title-text {
+    /* Chúng tôi có 20 năm kinh nghiệm trong dịch vụ lát nền & lát nền */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    /* or 160% */
+    text-transform: uppercase;
+    color: #585858;
+    margin-top: -25px;
+
+}
+
+.content-about {
+    /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it */
+    width: 538px;
+    height: 146px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 33px;
+    /* or 220% */
+    color: #C0C0C0;
+}
+
+.criteria {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #585858;
+}
+
+.icon-ok {
+    position: absolute;
+}
+
+.li-criteria {
+    padding-bottom: 20px;
+    margin-left: 42px;
+}
+
+.menu-criteria {
+    display: flex;
+}
+
+
+.img-right {
+    padding-left: 45px;
+}
+
+.rectangle-4 {
+    position: absolute;
+    height: 203px;
+    width: 224px;
+}
+
+.rectangle-5 {
+    position: absolute;
+    height: 235px;
+    width: 241px;
+    padding-left: 23px;
+    margin-top: -16px;
+}
+
+button {
+    border: 0px;
+}
+
+.details {
+
+    width: 184px;
+    height: 45px;
+    background: #EB9C29;
+    border-radius: 4px;
+    margin-left: 249px;
+    margin-top: 88px;
+}
+
+.details-1 {
+    /* XEM CHI TIẾT */
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 54px;
+    /* identical to box height, or 360% */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.icon-right-arrow-1 {
+    /* icons8_right_arrow 7 */
+    width: 25px;
+    height: 25px;
+
+}
+
+.service-of-us {
+    background-image: url("../img/Rectangle-24.png");
+
+}
+
+.rectangle-24 {
+    position: absolute;
+    height: 1182px;
+}
+
+.title-service-of-us {
+    padding-left: 120px;
+    padding-top: 56px;
+}
+
+.title-1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+    color: #515151;
+}
+
+
+.title-2 {
+    /* DỊCH VỤ CỦA CHÚNG TÔI */
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 51px;
+    /* identical to box height, or 212% */
+    text-transform: capitalize;
+    color: #5C5C5C;
+    margin-top: -20px;
+}
+
+.content-service {
+    /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy */
+    width: 514px;
+    height: 90px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    /* or 217% */
+    color: #8D8D8D;
+    padding-left: 76px;
+    padding-top: 76px;
+}
+
+.view-service {
+    /* Group 847 */
+    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.15));
+    /* Rectangle 603 */
+    width: 202px;
+    height: 42px;
+    background: #EB9C29;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    margin-top: 78px;
+    margin-left: 103px;
+}
+
+.view-service-1 {
+    /* XEM THÊM DỊCH VỤ */
+    width: 141px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    color: #FFFFFF;
+}
+
+div.service {
+    display: flex;
+}
+
+.service-type {
+    padding-left: 120px;
+    display: flex;
+}
+
+.service-type-1 {
+    height: 469px;
+    width: 383px;
+    border-radius: 0px;
+}
+
+.title-service-1 {
+    /* Rectangle 3878 */
+
+    position: absolute;
+    width: 344px;
+    height: 134px;
+    background: #272727;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    margin-top: 285px;
+    margin-left: 21px;
+    margin-right: 18px;
+}
+
+.title {
+    /* Sửa Nền Gỗ */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 208.02%;
+    /* or 42px */
+    text-align: justify;
+    color: #FFFFFF;
+    padding-top: 17px;
+    padding-left: 106px;
+}
+
+.content {
+    /* Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempor incididunt */
+    width: 330px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    /* or 177% */
+    color: #8D8D8D;
+    margin-top: -20px;
+    padding-left: 11px;
+}
+
+.rectangle-service {
+    /* Rectangle 3877 */
+    position: absolute;
+    height: 349px;
+    width: 383px;
+
+}
+
+.why-choose-us {
+    width: 1440px;
+    height: 834px;
+    background: url(../img/Rectangle-23.png);
+    display: flex;
+}
+
+
+
+
+.rectangle-12 {
+    /* Rectangle 3880 */
+    width: 1440px;
+    height: 834px;
+
+}
+
+.why-us {
+    position: absolute;
+    display: flex;
+    padding-top: 68px;
+    padding-left: 118px;
+}
+
+.title-3 {
+    /* Why choose us */
+    width: 173px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+    color: #FFFFFF;
+}
+
+.title-4 {
+    /* Chúng tôi cung cấp vật liệu tốt nhất cho sàn và lát của bạn */
+    width: 625px;
+    height: 102px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 51px;
+    /* or 159% */
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-top: -20px;
+}
+
+.content-why-us {
+    /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy */
+    width: 488px;
+    height: 146px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 33px;
+    /* or 220% */
+    color: #C0C0C0;
+    padding-top: 46px;
+    padding-left: 87px;
+}
+
+.rectangle-13 {
+    position: absolute;
+    padding-top: 282px;
+}
+
+.iteam {
+    position: absolute;
+    padding-left: 893px;
+    padding-top: 359px;
+}
+
+.text-number {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 24px;
+    /* identical to box height, or 67% */
+    color: #FFFFFF;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.text-title {
+    /* năm kinh nghiệm */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.iteam-reli {
+    display: flex;
+    padding-bottom: 65px;
+}
+
+.reliability-1 {
+    padding-right: 214px;
+}
+
+.reliability-3 {
+    padding-right: 170px;
+}
+
+.our-project {
+    padding-top: 151px;
+}
+
+
+
+.title-proj-1 {
+    /* Our Project */
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    /* identical to box height, or 100% */
+    color: #545454;
+}
+
+.title-proj-2 {
+    /* dự án nổi bật của chúng tôi */
+    height: 51px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 51px;
+    /* identical to box height, or 159% */
+    text-transform: capitalize;
+    color: #3D3D3D;
+}
+
+.content-project {
+    /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it */
+    width: 832px;
+    height: 146px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 33px;
+    /* or 220% */
+    text-align: center;
+    color: #C0C0C0;
+    padding-left: 305px;
+}
+
+.type-project-1 {
+    display: flex;
+}
+
+.type-project-2 {
+    display: flex;
+}
+
+.type-project-1 {
+    position: relative;
+    padding-left: 120px;
+}
+
+.type-project-2 {
+    position: relative;
+    padding-left: 120px;
+}
+
+.rectangle-19 {
+    position: absolute;
+    padding-top: 145px;
+}
+
+.img-1 {
+    padding-right: 20px;
+    padding-bottom: 17px;
+}
+
+.cover-rectangle-18 {
+
+    position: absolute;
+    width: 283px;
+    height: 282px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.title-project {
+    /* Phòng Ngủ Sàn Gỗ */
+    width: 178px;
+    height: 34px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 208.02%;
+    /* or 31px */
+    text-align: justify;
+    color: #FFFFFF;
+    padding-top: 148px;
+    padding-left: 31px;
+}
+
+.content-project-1 {
+    /* Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempor */
+    width: 252px;
+    height: 93px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 26px;
+    /* or 204% */
+    color: #F7F7F7;
+    margin-top: -30px;
+    padding-left: 31px;
+}
+
+.vertical {
+    /* Line 699 */
+    width: 238px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    transform: rotate(90deg);
+    margin-bottom: -50px;
+}
+
+
+.horizontal {
+    /* Line 700 */
+    width: 210px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    margin-bottom: -50px;
+}
+
+.new-event {
+    padding-top: 114px;
+}
+
+.title-ev-1 {
+    /* New & Event */
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+    text-align: center;
+    color: #545454;
+}
+
+.title-ev-2 {
+    /* TIN TỨC & SỰ KIỆN */
+    height: 29px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    text-align: center;
+    color: #454545;
+}
+
+.content-new-ev {
+
+    width: 713px;
+    height: 157px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 30px;
+    /* or 235% */
+    text-align: center;
+    color: #363636;
+    padding-left: 364px;
+}
+
+.moth {
+    /* Rectangle 3125 */
+    position: absolute;
+    width: 71px;
+    height: 67px;
+    background: #FEAC2B;
+    margin-top: -38px;
+}
+
+hr.day {
+    width: 48px;
+    height: 0px;
+    border: 0.5px solid #FFFFFF;
+    margin-top: -23px;
+}
+
+.text-day {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: justify;
+    color: #FFFFFF;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.text-moth {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: justify;
+    color: #FFFFFF;
+    margin-top: 0px;
+    margin-left: 25px;
+}
+
+.news-ev {
+    padding-left: 50px;
+    display: flex;
+}
+
+.res--section-floory--new {
+    /* Rectangle 3119 */
+    width: 388px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    margin-left: 14px;
+}
+
+.icons {
+    display: flex;
+    padding-left: 103px;
+}
+
+.text-admin {
+    /* Admin */
+    width: 36px;
+    height: 28px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    /* identical to box height, or 233% */
+    color: #858585;
+    padding-right: 17px;
+}
+
+.text-eye {
+    /* 330 lượt xem */
+    width: 75px;
+    height: 28px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    /* identical to box height, or 233% */
+    color: #858585;
+    padding-right: 8px;
+}
+
+.icon-account {
+    padding-right: 15px;
+}
+
+.icon-eye {
+    padding-right: 8px;
+}
+
+.text-title-new {
+    /* cách chọn các loại nền gỗ phù hợp với ngôi nhà của bạn 2023 */
+    width: 360px;
+    height: 56px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    text-transform: capitalize;
+    color: #4E4848;
+    padding-left: 15px;
+}
+
+.content-title-new {
+    /* Làm tủ bếp hết bao nhiêu tiền? một câu hỏi được quan tâm của nhiều người mua hàng. Để không bị mua hàng chênh lệch giá quá nhiều so với giá trị thực của sản phẩm */
+    width: 355px;
+    height: 84px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    /* or 200% */
+    text-align: justify;
+    color: #858585;
+    padding-left: 15px;
+}
+
+.type-new {
+    padding-right: 65px;
+}
+
+.footer {
+    /* width: 1440px;
+    height: 305px; */
+    background: #232323;
+    margin-top: 45px;
+}
+
+.footer-style {
+    /* Rectangle 2800 */
+    display: flex;
+}
+
+.content-footer {
+    width: 291px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    /* or 214% */
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.content-info {
+    width: 291px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    /* or 214% */
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.text-policy {
+    width: 118px;
+    height: 17px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #D9D9D9;
+}
+
+.text-title-footer {
+
+    width: 159px;
+    height: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+
+.image-footer {
+    padding-left: 66px;
+    padding-top: 56px;
+}
+
+.content-footer {
+    padding-top: 19px;
+}
+
+.img-footer {
+    padding-left: 31px;
+}
+
+.information {
+    padding-left: 111px;
+    padding-top: 45px;
+}
+
+.policy {
+    padding-top: 45px;
+    padding-left: 105px;
+}
+
+.menu-policy {
+    padding-top: 5px;
+}
+
+.li-policy {
+    padding-bottom: 20px;
+}
+
+.about-us-ft {
+    padding-top: 45px;
+    padding-left: 131px;
+}
+
+.icon-footer {
+    display: flex;
+}
+
+.icon_ft {
+    padding-right: 31px;
+}
+
+hr.horizontal-line-footer {
+    /* Line 143 */
+    position: absolute;
+    width: 1410px;
+    height: 0px;
+    left: 50px;
+    top: 5820px;
+    border: 1px solid #FFFFFF;
+    margin-top: 145px;
+}
+
+
+.dot {
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/* khi được hover, active đổi màu nền */
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+
+/* css trang register */
+.main {
+    background: #f1f1f1;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    width: 360px;
+    min-height: 100px;
+    padding: 32px 24px;
+    text-align: center;
+    background: #fff;
+    border-radius: 2px;
+    margin: 24px;
+    align-self: center;
+    box-shadow: 0 2px 5px 0 rgba(51, 62, 73, 0.1);
+}
+
+.form .heading {
+    font-size: 2rem;
+}
+
+.form .desc {
+    text-align: center;
+    color: #636d77;
+    font-size: 1.6rem;
+    font-weight: lighter;
+    line-height: 2.4rem;
+    margin-top: 16px;
+    font-weight: 300;
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 16px;
+    flex-direction: column;
+}
+
+.form-label,
+.form-message {
+    text-align: left;
+}
+
+.form-label {
+    font-weight: 700;
+    padding-bottom: 6px;
+    line-height: 1.8rem;
+    font-size: 1.4rem;
+}
+
+.form-control {
+    height: 40px;
+    padding: 8px 12px;
+    border: 1px solid #b3b3b3;
+    border-radius: 3px;
+    outline: none;
+    font-size: 1.4rem;
+}
+
+.form-control:hover {
+    border-color: #1dbfaf;
+}
+
+.form-group.invalid .form-control {
+    border-color: #f33a58;
+}
+
+.form-group.invalid .form-message {
+    color: #f33a58;
+}
+
+.form-message {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    padding: 4px 0 0;
+}
+
+.form-submit {
+    outline: none;
+    background-color: #1dbfaf;
+    margin-top: 12px;
+    padding: 12px 16px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    background-color: #1ac7b6;
+}
+
+.spacer {
+    margin-top: 36px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 43px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+button:hover {
+    background: #f12711;
+    background: -webkit-linear-gradient(to right, #f12711, #f5af19);
+    background: linear-gradient(to right, #f12711, #f5af19);
+}
+
+/* search */
+input#search {
+    width: 5px;
+    height: 30px;
+    background: #FFFFFF;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #262626;
+    padding-left: 35px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+    -webkit-transition: width .55s ease;
+    -moz-transition: width .55s ease;
+    -ms-transition: width .55s ease;
+    -o-transition: width .55s ease;
+    transition: width .55s ease;
+}
+
+.frm-search input#search:focus,
+.frm-search input#search:active {
+    outline: none;
+    width: 100px;
+}
+
+.frm-search:hover input#search {
+    width: 100px;
+    background: #93a2ad;
+}
+
+.frm-search:hover .icon {
+    color: #93a2ad;
+}
+
+.end-footer {
+    /* Copyright © 2023 Floory. All rights reserved. Design by i-web.vn */
+
+    width: 439px;
+    height: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    /* identical to box height, or 179% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.0072em;
+    color: #FFFFFF;
+    padding-left: 501px;
+    padding-bottom: 9px;
+}
+
+.define-add {
+    color: #FEAC2B;
+    border: none;
+}
+
+.horizontal-title-1 {
+
+    width: 156px;
+    height: 8px;
+    border: none;
+    background: #FEAC2B;
+    margin-left: 1px;
+    margin-top: -83px;
+}
+
+.horizontal-title-2 {
+
+    width: 156px;
+    height: 8px;
+    border: none;
+    background: #FEAC2B;
+    margin-left: 1px;
+    margin-top: -142px;
+}
+
+.horizontal-title-3 {
+
+    width: 124px;
+    height: 6px;
+    border: none;
+    background: #FEAC2B;
+    margin-top: -28px;
+}
+
+.service-of-us .service-type .service-type-1:hover {
+    scale: 1.1;
+}
+
+.news-ev .type-new:hover {
+    scale: 1.1;
+
+}
+
+.criteria li:hover {
+    color: #3DA35D;
+}
+
+@media (max-width: 400px) {
+   
+    .menu {
+        width: 400px;
+    }
+
+    .image-menu {
+        padding-left: 60px;
+        padding-top: 17px;
+        padding-right: 90px;
+        border-radius: 0px;
+    }
+
+    .home {
+        width: 125px;
+        margin-right: 15px;
+    }
+
+    .about {
+        width: 125px;
+        margin-right: 15px;
+    }
+
+    .service {
+        width: 120px;
+        margin-right: 15px;
+    }
+
+    .product {
+        width: 120px;
+        margin-right: 15px;
+    }
+
+    .news {
+        width: 120px;
+        margin-right: 15px;
+    }
+
+    .contact {
+        width: 120px;
+        margin-right: 10px;
+    }
+
+    .search {
+        
+        margin-top: -6px;
+    }
+
+    .nav {
+        padding-top: 15px;
+    }
+.slider-bar{
+    width: 100%;
+}
+
+}

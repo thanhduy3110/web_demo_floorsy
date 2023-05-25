@@ -1,0 +1,13 @@
+.check-delete {
+    padding-bottom: 10px;
+    display: inline-flex;
+}
+
+.btn-member {
+    margin-top: 16px;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+}
